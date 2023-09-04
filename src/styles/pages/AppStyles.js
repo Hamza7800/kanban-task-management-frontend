@@ -16,7 +16,7 @@ const Button = styled("button")(
 
 const Section = styled('section')(
   ({ theme }) => `
-    background-color:${ theme.palette.background.paper } ;
+    background-color:${ theme.palette.background.default } ;
     color:${ theme.palette.text.primary };
     height:100%;
   `

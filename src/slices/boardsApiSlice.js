@@ -2,7 +2,7 @@ import { apiSlice } from "./apiSlice";
 import { BOARDS_URL } from "../constants";
 
 
-const baordApiSlice = apiSlice.injectEndpoints({
+const boardApiSlice = apiSlice.injectEndpoints({
   endpoints: builder => ({
     getAllBoards: builder.query({
       query: () => ({
@@ -12,3 +12,11 @@ const baordApiSlice = apiSlice.injectEndpoints({
     })
   })
 });
+
+
+
+export const {
+  useGetAllBoardsQuery
+} = boardApiSlice;
+
+export default boardApiSlice;

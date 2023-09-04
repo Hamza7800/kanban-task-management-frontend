@@ -9,6 +9,7 @@ const lightTheme = createTheme({
     },
     primary: {
       main: '#000000',
+      dark: '#e4ebfa', // $lightGrayLine
     },
     secondary: {
       main: '#828fa3',
@@ -38,6 +39,7 @@ const darkTheme = createTheme({
     },
     primary: {
       main: '#2B2C37', // $darkGray
+      dark: '#3e3f4e',// $darkGrayLine
     },
     secondary: {
       main: '#FFFFFF', // $white
